@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TallerApis.Xamarin.Views.InicioPage"
+             Title="Pagina Inicial">
+    
+    <Grid Margin="10">
+        <Label x:Name="lblTexto" Text="Bienvenido a MiSocial" Grid.Row="0" Grid.ColumnSpan="3"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+               FontSize="25"
+               TextColor="#46698D"/>
+        <Button Text="Continuar" Grid.Row="6" Grid.ColumnSpan="3" Clicked="Continuar" TextColor="White" BackgroundColor="#2692C4"/>
+    </Grid>
+</ContentPage>
