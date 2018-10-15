@@ -7,13 +7,13 @@ namespace TallerApis.Api.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class ModeloPublicaciones : IMigrationMetadata
+    public sealed partial class ModeloInicial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(ModeloPublicaciones));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(ModeloInicial));
         
         string IMigrationMetadata.Id
         {
-            get { return "201810130215136_ModeloPublicaciones"; }
+            get { return "201810151528175_ModeloInicial"; }
         }
         
         string IMigrationMetadata.Source

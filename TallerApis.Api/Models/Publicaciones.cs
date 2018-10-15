@@ -8,12 +8,12 @@ using System.Web;
 namespace TallerApis.Api.Models
 {
     [Table("Publicacion")]
-    public class Publicacion
+    public class Publicaciones
     {
         [Key]
         public int Id { get; set; }
 
-        [MaxLength(50)]
+        [MaxLength(100)]
         [Required]
         public string Usuario { get; set; }
 
@@ -23,7 +23,8 @@ namespace TallerApis.Api.Models
         [Required]
         public DateTime FechaPublicacion { get; set; }
         public int MeGusta { get; set; }
+        public int MeDisgusta { get; set; }
         public int VecesCompartido { get; set; }
-        public bool EsPrivado { get; set; }
+        public bool EsPrivada { get; set; }
     }
 }
